@@ -11,7 +11,7 @@ def midpoint(ptA, ptB):
 # construct the argument parse and parse the arguments
 
 # load the image, convert it to grayscale, and blur it slightly
-image = cv2.imread('table.png')
+image = cv2.imread('bulb.png')
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 gray = cv2.GaussianBlur(gray, (7, 7), 0)
 # perform edge detection, then perform a dilation + erosion to
